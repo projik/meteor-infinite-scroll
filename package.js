@@ -1,10 +1,10 @@
 Package.describe({
-  name: 'staringatlights:infinite-scroll',
+  name: 'projik:infinite-scroll',
   version: '0.9.1',
   // Brief, one-line summary of the package.
   summary: 'Template level infinite scrolling.',
   // URL to the Git repository containing the source code for this package.
-  git: 'https://github.com/abecks/meteor-infinite-scroll',
+  git: 'https://github.com/projik/meteor-infinite-scroll',
   // By default, Meteor will default to using README.md for documentation.
   // To avoid submitting documentation, set this field to null.
   documentation: 'README.md'
