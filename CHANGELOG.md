@@ -1,3 +1,9 @@
+## 0.9.3
+- Added option for container selector
+
+## 0.9.2
+- updated dependanct dburles:mongo-collection-instances to version 0.3.5
+
 ## 0.9.1
 - Addded `ecmascript` dependency, thanks @JulianKingman
 
