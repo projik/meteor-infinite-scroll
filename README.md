@@ -16,6 +16,7 @@ Template.comments.created = function() {
     subManager: new SubsManager(),      // (optional, experimental) A meteorhacks:subs-manager to set the subscription on
                                         // Useful when you want the data to persist after this template
                                         // is destroyed.
+    container: '#list-container',       // (optional) the selector for the scrolling container
     collection: 'Comments',             // The name of the collection to use for counting results
     publication: 'CommentsInfinite'     // (optional) The name of the publication to subscribe.
                                         // Defaults to {collection}Infinite
@@ -92,6 +93,3 @@ When the subscription is loading more data, `.infinite-load-more` will receive t
 
 `.infinite-label` is only visible when the subscription is loading.
 
-# Todo:
-- Customizable loading template
-- Customizable threshold for loading more results
